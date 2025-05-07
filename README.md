@@ -11,7 +11,9 @@ The repository contains the following files and directories:
 - **figures/**: Directory containing figures and plots generated during analysis.
 - **README.md**: Project description and setup instructions.
 - **aftershock_forecasting_full_analysis.ipynb**: Jupyter Notebook for full analysis.
-- **convLSTM.ipynb**: **Main notebook for the project**, which includes all model training, evaluation, tuning, binning, graphing, and results analysis. This notebook is where the core ConvLSTM model is implemented and optimized.- **data_reader_and_PINNs_omori_experiments.ipynb**: Python script for reading the Southern California catalogue and converting it into a structured CSV file.
+- **convLSTM.ipynb**: **The central notebook of the project**, responsible for all aspects of model development, including training, hyperparameter tuning, evaluation, and performance optimization. This notebook also handles data binning, visualization, and result analysis, serving as the core component for implementing the ConvLSTM model and generating key insights.
+
+- **data_reader_and_PINNs_omori_experiments.ipynb**: Python script for reading the Southern California catalogue and converting it into a structured CSV file.
 - **.DS_Store**: A system file for macOS (can be ignored).
 
 ## Installation Instructions
